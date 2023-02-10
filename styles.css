@@ -1,0 +1,138 @@
+body
+{
+    margin: 0px;
+    background-color: darkgray;
+}
+
+.title
+{
+    font-size: 1.3em;
+    color:whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    box-shadow:rgba(171, 213, 250,0.8) 0px 5px 15px;
+}
+
+h1
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 8px;
+}
+
+.push
+{
+    font-size: .4em;
+    color:rgb(171, 213, 250);
+    text-align: end;
+}
+
+.main-nav
+{
+    color:whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.primary
+{
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-shadow: 1px 1px;
+    transform:rotate(-2deg);
+    /*transform: scale(1, 2);*/
+}
+
+
+a
+{
+    color: #f5f5f6;
+    text-decoration: none;
+}
+
+.container
+{
+    display: grid;
+    grid-gap: 15px;
+    height: 30rem;
+    grid-template-columns: 1fr 1fr 1fr;/*repeat(auto-fill, minmax(200px, 1fr));*/
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.zone 
+{
+    cursor:pointer;
+    text-align: center;
+    border-radius: 10px;
+    border:1px solid #bbb;
+    background-color: rgb(171, 213, 250);
+    transition: all 0.3s linear;
+    display: flex;
+    justify-items: end;
+}
+
+.text
+{
+    color: white;
+
+}
+
+.zone:hover {
+    box-shadow:rgb(255, 255, 255) 0px 5px 15px
+}
+
+.bounce:hover
+{
+    box-shadow:rgb(255, 255, 255) 0px 5px 15px
+}
+
+
+footer
+{
+    color:whitesmoke;
+    border-top: 2px solid whitesmoke;
+    box-shadow:rgba(171, 213, 250,0.8) -15px -5px 15px;
+    margin-top: 60px;
+    width: 100%;
+    transition: height 1s;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+
+}
+
+
+
+
+
+
+
+/*
+.tooltip
+{
+    border-bottom: 1px dotted;
+    display: inline-block;
+    position: relative;
+}
+
+
+.tooltip .tooltip_text
+{
+    background-color: black;
+    position: absolute;
+    color: white;
+    border-radius: 6px;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    visibility: hidden;
+}
+
+.tooltip:hover .tooltip_text{
+    visibility: visible;
+}*/
