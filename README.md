@@ -1,2 +1,2 @@
-# Learn HTML CSS and JAVACRIPT!
+# Learn HTML CSS and JAVASCRIPT!
 My repository.
